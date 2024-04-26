@@ -1,0 +1,52 @@
+ .nav-link{
+    position: relative; left : 550px;
+} 
+.get{
+    background-color: white;
+    color: red;
+    border-radius: 50rem;
+    padding: 10px 10px;
+    border: none;
+}
+.get:hover{
+    background-color: red;
+    color: white;
+    outline: none;
+    
+}
+
+.photo{
+    display: flex;
+    gap: 1rem;
+    padding: 10px 10px;
+
+
+}
+
+.now{
+    background-color: white;
+    color: red;
+    padding: 30px 20px;
+    border-radius: 50rem;
+    position: relative; left: 550px;
+    transform: translateX(-50%);
+    animation: slide 2s ease-in-out infinite;
+  }
+  
+  @keyframes slide{
+    0% {
+      transform: translatex(0);
+    }
+    50% {
+      transform: translatex(-50px);
+    }
+    100% {
+      transform: translatex(0);
+    }
+  }
+
+.now:hover{
+    background-color: red;
+    color: white;
+
+}
